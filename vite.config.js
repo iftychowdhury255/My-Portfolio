@@ -7,5 +7,6 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 export default defineConfig({
   plugins:
   [react(), tailwindcss(), flowbiteReact()],
+  base: "/My-Portfolio/",
    
 })
